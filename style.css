@@ -70,8 +70,9 @@ border: 2px solid #EBEAED;
 border-radius: 100px;
 }
 
-.inicio{
+.inicio {
     padding: 2rem;
+  
     }
 
     /* main */
@@ -148,7 +149,7 @@ text-decoration: none;
 
 /* galeria */
 
-.galeria-grid{
+.galeria-grid {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 1rem;
@@ -162,7 +163,37 @@ width: 100%;
 
 .galeria1{
 grid-column: 1/2;
+margin: 0%;
 }
 
+/* footer */
+
+.footer{
+    background-color: var(--colorBg);
+    padding-bottom: 10rem;
+}
+
+.footer-flex{
+    display: flex;
+    flex-direction: column;
+   justify-items: center;
+   align-items: center;
 
 
+    
+
+}
+
+.redes{
+
+padding-top: 4rem;
+display:flex;
+justify-content:space-around;
+gap: 2rem;
+
+
+}
+
+.texto-footer{
+    padding-top: 10rem;
+}
