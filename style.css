@@ -1,0 +1,168 @@
+:root {
+    --FuentePrincipal: font-family: 'DM Sans', sans-serif;
+    --colorBlanco: #FFFFFF;
+    --colorAzul:#1E0E62;
+    --colorBg:#F1F1F1;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+.no-margin{
+    margin: 0;
+}
+.texto-de-parrafo{
+    color: rgba(21, 20, 57, 0.4);
+
+
+}
+h2{
+    font-weight: 700;
+}
+
+
+/*Globales*/
+.contenedor{
+    width: min(90%, 140rem);
+    margin: 0 auto;
+}
+html{
+    box-sizing: border-box;
+    font-size:  62.5%; /*1 rem : 10px*/
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family:'DM Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+h4,h2,h3{
+    color: var(--colorAzul);
+}
+
+/* nav */
+nav{
+
+    font-weight: bold;
+    width: 100%;
+    background-color: var(--colorBlanco);
+}
+
+.nav-flex{
+display: flex;
+flex-direction:row;
+justify-content:space-between;
+align-items: center;
+
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.boton-nav {
+padding: 1rem;
+border: 2px solid #EBEAED;
+border-radius: 100px;
+}
+
+.inicio{
+    padding: 2rem;
+    }
+
+    /* main */
+
+   .bg {
+        background-color: var(--colorBg)
+
+    }
+
+    header{
+        padding-top: 2rem;
+    }
+
+.header-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 4rem;
+    align-items: center;
+
+
+    }
+
+    .header-img{
+        border-radius: .5px;
+        width: 50%;
+        grid-column: 3/2;
+        margin-left: 40%;
+        border-radius: 10%;
+        }
+
+.titulo {
+        grid-column: 1/2;
+        padding: 1rem;
+    }
+
+    .saludo{
+        font-weight: 700;
+        font-family: var(--FuentePrincipal);
+        color: var(--colorAzul);
+    }
+
+    .descripcion{
+        color: rgba(21, 20, 57, 0.4);
+    }
+
+    /* section */
+    .section-flex{
+        display: flex;
+
+    }
+
+    .bloques-grid {
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+        column-gap: 2rem;
+        padding: 5rem;
+
+    }
+
+/* section */
+
+.section-flex{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 4rem;
+}
+.boton-verde{      
+padding: 1rem;
+border: #1E0E62 1px solid;
+text-decoration: none;
+
+}
+
+/* galeria */
+
+.galeria-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    
+   
+}
+
+.galeria-grid, img{
+width: 100%;
+}
+
+.galeria1{
+grid-column: 1/2;
+}
+
+
+
